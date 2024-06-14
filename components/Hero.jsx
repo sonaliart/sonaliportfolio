@@ -51,7 +51,7 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[10%] -left-[35rem]"
               icon={<RiBriefcase4Fill className="text-2xl" />}
-              endCountNum={3}
+              endCountNum={10}
               badgeText={"Years Of Experience"}
             />
             {/* badge 1 end */}
@@ -60,7 +60,7 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[40%] -left-[30rem]"
               icon={<RiTodoFill className="text-2xl" />}
-              endCountNum={3}
+              endCountNum={1}
               endCountText="k"
               badgeText={"Finished Projects"}
             />

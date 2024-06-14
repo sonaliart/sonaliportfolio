@@ -171,7 +171,7 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4">
-                      Unmatched Service Quality for Over 3 Years
+                      Unmatched Service Quality for Over 10 Years
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
                       Fine artist and observer of life, capturing moments and emotions through my artwork.
