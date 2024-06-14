@@ -1,0 +1,177 @@
+[
+    {
+      "image": "/charcoal/1.png",
+      "category": "charcoal",
+      "name": "charcoal 1",
+      "description": "A realistic portrait captured in charcoal, showcasing intricate details and shading techniques.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/10.png",
+      "category": "charcoal",
+      "name": "charcoal 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/11.png",
+      "category": "charcoal",
+      "name": "charcoal 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/12.png",
+      "category": "charcoal",
+      "name": "charcoal 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/13.png",
+      "category": "charcoal",
+      "name": "charcoal 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/14.png",
+      "category": "charcoal",
+      "name": "charcoal 6",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/15.png",
+      "category": "charcoal",
+      "name": "charcoal 7",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/16.png",
+      "category": "charcoal",
+      "name": "charcoal 8",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/3.png",
+      "category": "charcoal",
+      "name": "charcoal 17",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/4.png",
+      "category": "charcoal",
+      "name": "charcoal 18",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/5.png",
+      "category": "charcoal",
+      "name": "charcoal 19",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/6.png",
+      "category": "charcoal",
+      "name": "charcoal 20",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/7.png",
+      "category": "charcoal",
+      "name": "charcoal 21",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/charcoal/8.png",
+      "category": "charcoal",
+      "name": "charcoal 22",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/oil_color/1.png",
+      "category": "oil color",
+      "name": "oil color 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/oil_color/2.png",
+      "category": "oil color",
+      "name": "oil color 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/oil_color/3.png",
+      "category": "oil color",
+      "name": "oil color 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/oil_color/4.png",
+      "category": "oil color",
+      "name": "oil color 4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/oil_color/5.png",
+      "category": "oil color",
+      "name": "oil color 5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/soft_pastle/1.png",
+      "category": "soft pastle",
+      "name": "soft pastle 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/soft_pastle/2.png",
+      "category": "soft pastle",
+      "name": "soft pastle 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/soft_pastle/3.png",
+      "category": "soft pastle",
+      "name": "soft pastle 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/water_color/1.png",
+      "category": "water color",
+      "name": "water color 1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/water_color/2.png",
+      "category": "water color",
+      "name": "water color 2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    },
+    {
+      "image": "/water_color/3.png",
+      "category": "water color",
+      "name": "water color 3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, ratione.",
+      "link": "/"
+    }
+  ]
