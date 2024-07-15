@@ -15,19 +15,33 @@ import { Pagination } from "swiper/modules";
 
 import ProjectCard from "@/components/ProjectCard";
 import projectData from '@/public/data/projectData.json';
+// import projectData2 from '@/public/data/projectData2.json';
 
 // Function to get one project per category
+// const getProjectsByCategory = (projects) => {
+//   const categoryMap = {};
+
+//   projects.forEach((project) => {
+//     if (!categoryMap[project.category]) {
+//       categoryMap[project.category] = project;
+//     }
+//   });
+
+//   return Object.values(categoryMap);
+// };
+
 const getProjectsByCategory = (projects) => {
   const categoryMap = {};
 
   projects.forEach((project) => {
-    if (!categoryMap[project.category]) {
+    if (!categoryMap[project.category] || new Date(project.date) > new Date(categoryMap[project.category].date)) {
       categoryMap[project.category] = project;
     }
   });
 
   return Object.values(categoryMap);
 };
+
 
 const Work = () => {
   const projectsByCategory = getProjectsByCategory(projectData);

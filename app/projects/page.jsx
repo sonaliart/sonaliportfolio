@@ -6,21 +6,46 @@ import projectData from '@/public/data/projectData.json';
 
 
 
+// Parse dates and sort the projects by date in descending order
+const sortedProjectData = projectData.map(project => ({
+  ...project,
+  date: new Date(project.date)
+})).sort((a, b) => b.date - a.date);
+
 const uniqueCategory = [
+  "latest project",
   "all projects",
+
   ...new Set(projectData.map((item) => item.category)),
 ];
 
+// const Projects = () => {
+//   const [categories, setCategories] = useState(uniqueCategory);
+//   const [category, setCategory] = useState("all projects");
+
+//   const filteredProjects = projectData.filter(project =>{
+//     // if category is all project retrun all the projects else return the projects in the category
+//     return category === 'all projects' ? project : project.category === category;
+//   });
+
 const Projects = () => {
   const [categories, setCategories] = useState(uniqueCategory);
-  const [category, setCategory] = useState("all projects");
+  const [category, setCategory] = useState("latest project");
 
-  const filteredProjects = projectData.filter(project =>{
-    // if category is all project retrun all the projects else return the projects in the category
-    return category === 'all projects' ? project : project.category === category;
+  const filteredProjects = sortedProjectData.filter((project,index) => {
+    // if category is "all projects" return all the projects
+    // if category is "latest project" return the most recent project
+    // else return the projects in the category
+    if (category === "all projects") {
+      return project;
+    } else if (category === "latest project") {
+      return index < 12;
+    } else {
+      return project.category === category;
+    }
   });
 
-  console.log(filteredProjects);
+  // console.log(filteredProjects);
 
   return (
     <section className="min-h-screen pt-12">
@@ -30,7 +55,7 @@ const Projects = () => {
         </h2>
         {/* tabs */}
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-5 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none ">
+          <TabsList className="w-full grid h-full md:grid-cols-6 lg:max-w-[680px] mb-12 mx-auto md:border dark:border-none ">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
